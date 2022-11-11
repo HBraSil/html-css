@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style>
+        mark{
+            background-color: brown; /** está é a 2nd form de mudar a cor do marcador de texto**/
+        }
+    </style>
+</head>
+<body>
+    <h1>As principais formatações de texto</h1>
+    <h2>NEGRITO/DESTAQUE</h2>
+    <p>nesta linha veremos como deixar em negrito <b>qualquer frase</b> neste caso não semântica (não semântico)</p> <!--o termo <b></b> não é semântico pois não há significado para o seu uso nesta linha-->
+    <p>aqui veremos um exemplo de um <strong>termo em negrito</strong> semântico (semântico)</p> <!-- Aqui com o uso da tag strong o termo em negrito passa a, agora sim, ser semântico -->
+    <h2>ITÁLICO/ÊNFASE</h2>
+    <P>neste parágrafo temos um <i>termo itálico</i> (não semântico)</P> <!-- termo utilizando a tag i, assim sendo, não seemântico-->
+    <p>já este parágrafo temos um <em>termo itálico</em> da forma certa para o HTML (semântica)</p>
+    <h2>TEXTO MARCADO</h2>
+    <p>neste texto <mark style="background-color: blueviolet;'">marcaremos uma parte dele</mark></p> <!--esta é a 1st form to change a forma do marcador de texto-->
+    <p>neste texto <mark>marcaremos uma parte dele</mark></p>
+    <p>neste texto <mark>marcaremos uma parte dele</mark></p>
+    <h2>TEXTO DELETADO</h2>
+    <P>Podemos marcar um <del>texto como deletado</del> para indicar que ele dever ser lido mas não considerado</P>
+    <H2>TEXTO INSERIDO</H2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois</p> <!-- Este é um exemplo de tag semântica -->
+    <p>Podemos marcar um <u>texto como inserido</u> para dar ênfase e indicar que ele foi adicionado depois</p> <!-- Este é um exemplo de tag não semântica -->
+    <h2>TEXTO SOBRESCRITO</h2>
+    <P> Para inserir coisas do tipo <strong>x<sup>10</sup>+25</strong></P>
+    <h2>TEXTO SUBSCRITO</h2>
+    <p> Para inserir coisas do tipo <strong><em>H<sub>2</sub>O</em></strong></p>
+</body>
+</html>
