@@ -36,21 +36,19 @@ header {
 h1 {
     font-family: var(--fonte-h1);
     padding-bottom: 10px;
-    font-size: 100px;
+    font-size: 8vw;
     font-variant: small-caps;
 }
 
 header > p {
     font-family: var(--fonte-nome);
-    padding-bottom: 10px;
 }
 
 p.p1 {
     font-family: var(--fonte-padrao);
     font-weight: bold;
-    height: 750px;
     font-size: 50px;
-    width: 500px;
+    width: 40vw;
     margin: 50px auto 20px 60px;
 }
 
@@ -60,19 +58,22 @@ p.p1 {
     background-position:  center bottom;
     background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
 }
 
 .p2 {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.297), #052f0509);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.212), #052f0509);
     color: rgba(255, 255, 255, 0.882);
     font-family: var(--fonte-padrao);
     font-weight: bold;
-    height: 750px;
     font-size: 50px;
-    width: 500px;
+    height: 50vh;
+    width: 40vw;
     margin-left: 60px;
     padding-top: 50px;
     padding-bottom: 20px;
+
 }
 
 .p3 {
