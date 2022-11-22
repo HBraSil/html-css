@@ -15,6 +15,10 @@ main {
     font-size: 1.3em;
 }
 
-.material-icons {
+span.material-icons {
     display: none;
+}
+
+menu {
+    display: inline;
 }
