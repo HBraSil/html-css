@@ -60,7 +60,7 @@ menu a:hover {
 
 main {
     background-color: rgba(225, 166, 132, 0.905);
-    width: 380px;
+    width: 400px;
     margin: auto;
     text-align: justify;
     border-radius: 15px;
@@ -74,4 +74,6 @@ h2 {
 
 p {
     text-indent: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
