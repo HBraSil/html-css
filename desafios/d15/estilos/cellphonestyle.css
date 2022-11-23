@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(../imagem/pexels-rodnae-productions-9086767.jpg);
+    background-repeat: no-repeat;
+    background-color: cover;
+}
