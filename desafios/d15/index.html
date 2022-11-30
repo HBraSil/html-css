@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="estilos/cellphonestyle.css" media="screen and (max-width: 750px)">
+    <link rel="stylesheet" href="estilos/cellphonestyle.css" media="screen and (max-width: 628px)">
 </head>
 <body>
     <main>
-        <div>
+        <div class="all">
             <section class="imagem">
 
             </section>
@@ -20,21 +20,21 @@
             <section class="login">
             <h1>LOGIN</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente</p>
-            <form action="" class="form">
-                <label for="ilogin"><span class="material-symbols-outlined">person</span></label>
-                <input type="text" name="login" id="ilogin">
-
-                <label for="isenha"><span class="material-symbols-outlined">password</span></label>
-                <input type="password" name="senha" id="isenha">
-
+            <div class="formulario">
+                <form action="" class="form">
+                    <label for="ilogin"><span class="material-symbols-outlined">person</span></label>
+                    <input type="text" name="login" id="ilogin">
+                    <label for="isenha"><span class="material-symbols-outlined">password</span></label>
+                    <input type="password" name="senha" id="isenha">
                 
-            </form>
-            <form action="cadastro.php" class="entrar">
-                <input type="submit" value="Submit" class="entrar">
-            </form>
-            <form action="cadastro.php" class="delete">
-                <input type="reset" value="Delete all" class="delete">
-            </form>
+                </form>
+                <form action="cadastro.php" class="entrar">
+                    <input type="submit" value="Submit" class="entrar">
+                </form>
+                <form action="cadastro.php" class="delete">
+                    <input type="reset" value="Delete all" class="delete">
+                </form>
+            </div> <!-- LEMBRAR DE TIRAR TODA PARTE A BAIXO DA IMAGEM DA DIV.ALL E CRIAR UMA DIV SÓ PARA ELES-->
             </section>
         </div>
     </main>
