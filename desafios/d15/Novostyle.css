@@ -5,8 +5,8 @@
     padding: 0;
 }
 
-body {
-    min-height: 110vh;
+body, html {
+    min-height: 100vh;
     background-image: linear-gradient(to top, rgb(50, 50, 162), rgb(175, 221, 230));
     background-repeat: no-repeat;
     background-size: contain;
@@ -26,6 +26,7 @@ section.imagem {
     top: 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    position: fixed;
 
 }
 
@@ -37,6 +38,7 @@ section.login {
     top: 350px;
     border-end-start-radius: 10px;
     border-end-end-radius: 10px;
+    position: fixed;
 
 }
 
