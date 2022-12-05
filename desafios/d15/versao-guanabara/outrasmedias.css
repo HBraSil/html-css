@@ -26,7 +26,25 @@
 
     }
 
+    form {
+        margin-left: 70px;
+        float: left;
+        width: 320px;
+        height: 250px;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    input.delet {
+        margin-left: 220px;
+        margin-top: 20px;
+    }
+
 }
+
+
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
 
@@ -49,7 +67,20 @@
         float: right;
         width: 50%;
     }
+
+    div.formulario > h1 {
+        text-align: center;
+        font-size: 1.7em;
+        padding: 10px;
+    }
+
+    div.formulario > p {
+        font-size: 1.2em;
+        padding-top: 8px;
+    }
 }
+
+
 
 @media screen and (min-width: 1201px) {
     section.login {
@@ -67,5 +98,16 @@
     div.formulario {
         float: right;
         width: 50%;
+    }
+
+    div.formulario > h1 {
+        text-align: center;
+        padding: 10px;
+        font-size: 1.7em;
+    }
+
+    div.formulario > p {
+        padding-top: 8px;
+        font-size: 1.2em;
     }
 }
