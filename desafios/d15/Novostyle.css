@@ -3,34 +3,35 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 body, html {
-    min-height: 100vh;
+    height: 100vh;
     background-image: linear-gradient(to top, rgb(50, 50, 162), rgb(175, 221, 230));
     background-repeat: no-repeat;
     background-size: contain;
-
 }
 
 
-section.imagem {
+section > picture.imagem {
     background-color: black;
     background-image: url(imagem/pexels-hamza-nouasria-14408740.jpg);
-    width: 250px;   
+    width: 250.9px;   
     height: 250px;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 32%;
-    top: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -168%);
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    position: fixed;
 
 }
 
-section.login {
+section {
     width: 250px;
     background-color: aquamarine;
     position: absolute;
@@ -38,7 +39,6 @@ section.login {
     top: 350px;
     border-end-start-radius: 10px;
     border-end-end-radius: 10px;
-    position: fixed;
 
 }
 

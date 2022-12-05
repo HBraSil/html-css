@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 720px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to top, rgba(25, 101, 25, 0.77), rgba(0, 0, 0, 0.84),  rgb(54, 117, 151), rgba(252, 250, 250, 0.248));
+    }
+
+    section.login {
+        width: 90vw;
+        height: 400px;
+    }
+
+    section.login > div.imagem {
+        background-image: url(../imagem/pexels-tablet.jpg);
+        float: left;
+
+        height: 100%;
+        width: 40%;
+    }
+
+    section > div.login {
+        float: right;
+
+    }
+
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+
+    body {
+        background-image: linear-gradient(to top, rgba(255, 64, 0, 0.426), rgba(58, 74, 117, 0.742), rgba(0, 0, 0, 0.91), #451f5f);
+    }
+
+    section.login {
+        width: 950px;
+    }
+
+    section.login > div.imagem {background-image: url(../imagem/pexels-laptop.jpg);
+
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div.formulario {
+        float: right;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    section.login {
+        width: 1170px;
+        height: 550px;
+    }
+
+    section.login > div.imagem {background-image: url(../imagem/pexels-tv.jpg);
+
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    div.formulario {
+        float: right;
+        width: 50%;
+    }
+}
