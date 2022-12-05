@@ -6,9 +6,10 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(to top, rgb(50, 50, 162), rgb(175, 221, 230));
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 section.imagem {
