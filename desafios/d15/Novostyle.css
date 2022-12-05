@@ -6,11 +6,13 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 110vh;
     background-image: linear-gradient(to top, rgb(50, 50, 162), rgb(175, 221, 230));
     background-repeat: no-repeat;
     background-size: contain;
+
 }
+
 
 section.imagem {
     background-color: black;
@@ -21,7 +23,7 @@ section.imagem {
     background-repeat: no-repeat;
     position: absolute;
     left: 32%;
-    top: 200px;
+    top: 100px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
@@ -32,9 +34,10 @@ section.login {
     background-color: aquamarine;
     position: absolute;
     left: 32%;
-    top: 450px;
+    top: 350px;
     border-end-start-radius: 10px;
     border-end-end-radius: 10px;
+
 }
 
 section h1 {
