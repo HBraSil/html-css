@@ -132,13 +132,13 @@
 
     section.login > div.imagem {background-image: url(../imagem/pexels-tv.jpg);
 
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     div.formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
 
